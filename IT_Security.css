@@ -1,0 +1,177 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: rgb(183, 181, 179); */
+}
+body{
+    background-color: #F1ECEC;}
+    header{
+        width: 100%;
+        height: 5rem;
+        background-color: #fff;
+        display: flex;
+         position: sticky;
+         top: 0;
+         z-index: 100;
+    }
+    
+    header .logodiv { width: 15%; height: 5rem; display: flex; justify-content: end;align-items: center; background-color: #fff;}
+    /* Nav bar */
+    header .navbardiv{ width: 60%; height: 5rem; 
+    display: flex; position: relative;}
+    header .navbardiv button{width: 150px; height: 3rem; background-color: rgb(59, 59, 175);
+    position: relative; top: 15px;
+    display: flex; justify-content: left; align-items: center;
+    left: 100px; border: 0; text-decoration: none;}
+    
+    header .navbardiv button span{ color: #fff; font-size: 13px; font-weight: bolder;  text-align: center;}
+    
+    header .navbardiv ul li{
+        width: 200px;
+        height: 4rem;
+        /* border: 1px solid black; */
+        position: relative;
+        left:200px ;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    header .navbardiv ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+       
+    }
+     
+    /* header 3 */
+    
+    header .contactdiv{ width: 25%; height: 5rem; position: relative; right: -400px;}
+    
+    header .contactdiv .span1{
+        font-size: 18px;
+        font-weight: bolder;
+        position: relative;
+        top: 20px;
+        right: 31px;
+    }
+    header .contactdiv button{
+        width: 150px; height: 56px; background-color: rgb(59, 59, 175);
+        color: #fff;
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: center;
+        padding: 30px;
+        position: relative;
+        top: -37px;
+        right: -40px;
+        border-radius: 5px;  
+    }
+
+.test{
+    display: flex;
+}
+
+    .hoverdiv{
+        width: 450px;
+        height: 540px;
+        /* background-color: blanchedalmond; */
+        margin: 50px 0 30px 50px;
+        border-radius: 20px;
+        border: 1px solid gray;
+        border opacity: 0.5;
+         box-shadow: 1px grey;
+    }
+        
+
+        .hoverdiv ul li{
+            list-style: none;
+            width:100%;
+            height: 60px;
+            font-size: 23px;
+            /* background-color: aqua; */
+    
+            
+        }
+        .hoverdiv ul li svg{
+            margin-left: 4px;
+            margin-top: 10px;
+        }
+       
+/* Certification Training Box */
+
+    .cert{
+        width: 1250px;
+        height: 650px;
+        /* background-color: blue; */
+        margin: 50px 0 0 50px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+
+    .cert .cisabox{
+        margin-top: 10px;
+        width: 340px;
+        height: 200px;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 0 0 0 10px;
+        border-bottom: 10px solid rgb(13, 13, 145);
+        
+    }
+    .sharat{
+        width: 340px;
+        height: 200px;
+        background-color: rgba(13, 13, 145, .5);
+        border-radius: 10px;
+       display: none; 
+    } 
+
+    .sharat button{
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        font-weight: bolder;
+        color: #fff;
+        background-color: rgba(13, 13, 145, .0);
+        margin: 71px;
+        border: 1px solid white;
+    }
+
+    .cert .cisabox img{
+        margin-top: 10px;
+    }
+
+
+    .cert .cisabox .p1{
+        font-size: 17px;
+        font-weight: bolder;
+    }
+
+    .cert .cisabox span{
+        color: rgb(13, 13, 145);
+    }
+
+    .hoverdiv ul li:hover{
+        background-color: rgb(13, 13, 145);
+        color: #fff;
+        
+    }
+
+    .hoverdiv ul li:hover .cert{
+        display: block;  
+    }
+
+    .cisabox:hover {
+        display: block;
+        background-color:blue;
+        opacity: .4;
+
+
+    }
+    .spanbox a {
+        text-decoration: none;
+        color: #000;
+    }

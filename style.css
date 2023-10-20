@@ -1,0 +1,448 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: rgb(183, 181, 179); */
+}
+body{
+    background-color: #F1ECEC;
+}
+header{
+    width: 100%;
+    height: 5rem;
+    background-color: #fff;
+    display: flex;
+     position: sticky;
+     top: 0;
+     z-index: 100;
+}
+
+header .logodiv { width: 15%; height: 5rem; display: flex; justify-content: end;align-items: center; background-color: #fff;}
+/* Nav bar */
+header .navbardiv{ width: 60%; height: 5rem; 
+display: flex; position: relative;}
+header .navbardiv button{width: 150px; height: 3rem; background-color: rgb(59, 59, 175);
+position: relative; top: 15px; cursor: pointer;
+display: flex; justify-content: left; align-items: center;
+left: 100px; border: 0; text-decoration: none;}
+
+header .navbardiv button span{ color: #fff; font-size: 13px; font-weight: bolder;  text-align: center; width: 80px; height: 2.5rem; padding-top: 10px;}
+
+header .navbardiv ul li{
+    width: 150px;
+    height: 2rem;
+    /* border: 1px solid black; */
+    position: relative;
+    left:200px ;
+    float: left;
+    list-style: none;
+    margin-top: 25px;
+}
+.allcourses1 a{
+    color: #fff;
+}
+header .navbardiv ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+   
+}
+.navbardiv ul li ul li{
+    width: 250px;
+    height: 40px;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: #fff;
+    margin-left: -200px;
+    display: block;
+    display: none;
+  
+   
+}
+
+ .navbardiv ul li ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+ }
+
+ .navbardiv ul li:hover ul li{
+    display: block;
+    background-color: rgb(13, 13, 145);
+    
+ }
+
+
+ 
+
+        .hoverdiv ul li svg{
+            margin-left: 4px;
+            margin-top: 10px;
+        } */
+       
+
+
+
+
+
+header .navbardiv button span:hover + .test{
+    display: block;
+    animation: zoom-in-zoom-out 1s ease;
+    
+}
+
+
+
+
+header .contactdiv{ width: 25%; height: 5rem; position: relative; right: -400px;}
+
+header .contactdiv .span1{
+    font-size: 18px;
+    font-weight: bolder;
+    position: relative;
+    top: 20px;
+    right: 31px;
+}
+header .contactdiv button{
+    width: 150px; height: 56px; background-color: rgb(59, 59, 175);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    top: -37px;
+    right: -40px;
+    border-radius: 5px;  
+}
+/* selaction */
+
+section{
+    width: 100%;
+    height: 650px;
+    background-color: #F1ECEC;
+}
+section .maindiv1{
+    width: 80%;
+    height: 600px;
+    background-color: #fff;
+    position: relative;
+    left: 190px;
+    top: 30px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section .maindiv1 .Contactinformation{width: 55%;
+    height: 90%; background-color:#403DA0;
+    border: 1px solid black;
+    border-radius: 25px;
+   background-size: cover;
+   overflow: hidden;
+}
+
+section .maindiv1 .Contactinformation .smalldiv{
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    border-radius: 45%;
+    position: relative;
+    top: -150px;
+    left: 680px;
+}
+section .maindiv1 .Contactinformation .round{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    opacity: .8;
+    position: relative;
+    top: -450px;
+    left: 680px;
+    
+}
+
+
+
+
+section .maindiv1 .Contactinformation h2{
+    padding: 50px 0px 0px 50px;
+    color: #fff;
+}
+section .maindiv1 .Contactinformation p{
+    padding: 0px 0px 0px 50px;
+    color: #fff;
+}
+
+section .maindiv1 .Contactinformation a{
+    padding: 0px 0px 0px 50px;
+    color: #fff;
+    position: relative;
+    top: 50px;
+    text-decoration: none;
+}
+
+section .maindiv1 .Contactinformation a span{
+    position: relative;
+    top: -7px;
+}
+
+section .maindiv1 .Contactinformation span svg{
+    margin-left: 50px;
+}
+section .maindiv1 .getintouch{
+  width: 35%;  height: 90%;  border: 1px solid black;
+  border-radius: 25px;
+}
+
+
+section .maindiv1 .getintouch h1{
+    padding: 50px 0px 0px 90px;
+    color: rgb(59, 59, 175);
+    font-size: 30px;
+}
+
+section .maindiv1 .getintouch label{
+    padding: 0px 0px 0px 90px;
+    color: rgb(59, 59, 175);
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+section .maindiv1 .getintouch input{
+    width: 70%;
+    height: 40px;
+    margin-left: 90px;
+    border-radius: 10px;
+    border-style: none;
+    border: 1px solid black;
+}
+
+section .maindiv1 .getintouch button{
+    width: 70%;
+    height: 45px;
+    background-color: rgb(59, 59, 175);
+    margin-left: 90px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+}
+::placeholder{
+    padding-left: 10px;
+}
+
+/* Our Location */
+
+.ourlocation{
+    width: 80%;
+    height: 420px;
+    background-color: #fff;
+    position: relative;
+    left: 190px;
+    top: 30px;
+    border-radius: 25px;
+    /* display: flex;   */
+}
+
+
+.ourlocation h1{
+    display: inline;
+    position: relative;
+    top: 80px;
+    left: 670px;
+    font-weight: bolder;
+    text-decoration: solid rgb(247, 207, 5) underline 8px;
+}
+
+.ourlocation .locationdiv{
+    width: 100%;
+    height: 250px;
+    
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ourlocation .locationdiv .location1{
+    width: 450px;
+    height: 230px;
+    background-color: rgb(182, 187, 238);
+    border-radius: 10px;
+}
+
+.ourlocation .locationdiv .location1 h3{
+    padding: 50px 0 0 190px;
+}
+
+.ourlocation .locationdiv .location1 svg{
+    margin-left: 50px;
+}
+.ourlocation .locationdiv .location1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    /* margin-left: 50px; */
+    
+}
+
+.ourlocation .locationdiv .location2{
+    width: 450px;
+    height: 230px;
+    background-color: rgb(182, 187, 238);
+    border-radius: 10px;
+}
+
+.ourlocation .locationdiv .location3{
+    width: 450px;
+    height: 230px;
+    background-color: rgb(182, 187, 238);
+    border-radius: 10px;
+}
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(10, 37, 65);
+    position: relative;
+    top: 50px;
+    
+}
+footer .footer1{
+    width: 100%;
+    height: 70%;
+    border-bottom: 5px solid beige;
+    display: flex;
+}
+
+
+footer .footer1 .whitelogo{
+    height: 100%;
+    width: 25%;
+   
+    
+}
+footer .footer1 .whitelogo img{
+    margin-top: 30px;
+    margin-left: 250px;
+    
+}
+footer .footer1 .whitelogo p{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 250px;
+    
+    display: inline;
+}
+
+.company{
+    width: 25%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: end;
+}
+.company ul{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #fff;
+    list-style: none;
+}
+.company ul li a{ 
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+   
+    
+}
+
+
+
+.company ul li a:hover{
+    color: orange;
+    text-decoration: solid orange underline 2px;  
+}
+
+.company{
+    width: 25%;
+    height: 100%;
+   
+}
+.contactus{
+    width: 25%;
+    height: 100px;
+}
+
+.contactus h3{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #fff;
+    padding: 0 0 0 100px;
+}
+
+.contactus svg{
+    margin-left: 100px;
+}
+
+
+.contactus p{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.contactus h4{
+    font-size: 23px;
+    color: #fff;
+    padding: 0 0 0 90px;
+
+}
+.xyz{
+    margin-left: 70px;
+}
+.xyz .round{
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+}
+.xyz .round svg{
+    position: relative;
+    right: 94px;
+    top: 5px;
+}
+footer .footer2{
+    width: 100%;
+    height: 30%;
+}
+
+footer .footer2 h3{
+    margin: 1px 0 0 50%;
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: solid orange underline 5px;
+}
+
+footer .footer2 ul li{ width: auto; height: auto; float: left; list-style: none; color: #fff; margin-left: 12px;
+margin-top: 5px;}
+
+footer .footer2 p{
+    margin-top: 95px;
+    margin-left: 600px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+footer .footer2 ul li:hover{
+    color: orange;
+    text-decoration: solid orange underline 2px;
+}
+
